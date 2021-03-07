@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLWithModelValidation", "GraphQLWithModelValidation\GraphQLWithModelValidation.csproj", "{FB9C129B-BD1A-4E43-847C-1B5A2349102A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB9C129B-BD1A-4E43-847C-1B5A2349102A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9C129B-BD1A-4E43-847C-1B5A2349102A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9C129B-BD1A-4E43-847C-1B5A2349102A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9C129B-BD1A-4E43-847C-1B5A2349102A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F363BC19-65F2-42A0-A214-69F77E1F7596}
+	EndGlobalSection
+EndGlobal
