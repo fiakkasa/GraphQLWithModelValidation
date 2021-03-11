@@ -1,6 +1,8 @@
-﻿using GraphQLWithModelValidation.Models;
+﻿using DataAnnotatedModelValidations;
+using GraphQLWithModelValidation.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
 namespace GraphQLWithModelValidation.GraphQL
@@ -21,6 +23,14 @@ namespace GraphQLWithModelValidation.GraphQL
                 Summary = _summaries[_random.Next(_summaries.Length)]
             });
 
-        public Sample? GetSample(string test, int count, Sample obj, Sample obj1, Sample obj2) => obj;
+#pragma warning disable RCS1163 // Unused parameter.
+        public Sample? GetSample(
+            [MinLength(2)] string test,
+            [Range(0, 10)] int count,
+            [IgnoreModelValidation] Sample obj,
+            Sample obj1,
+            Sample obj2
+        ) => obj;
+#pragma warning restore RCS1163 // Unused parameter.
     }
 }
